@@ -1,0 +1,64 @@
+
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+	border-color: red;
+	border-width: 1px;
+    border-style: none;
+    overflow: hidden;
+  }
+  
+
+h1, h2, p {
+    color: white;
+	text-align: center;
+}
+
+
+img {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	max-width: 25%;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+
+}
+
+h2 {
+	font-size: 1em;
+	margin-top: 3em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+    color: white;
+    font-family: Open-Sans, Sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.5em;
+
+}
+
+p {
+	margin: 0.5em;
+}
+
+div {
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap:wrap;
+
+}
+
