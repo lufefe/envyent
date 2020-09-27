@@ -19,6 +19,7 @@
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  width: 70%;
 }
 
 .cards__items {
@@ -62,8 +63,7 @@
   bottom: 0;
   margin-left: 2px;
   padding: 2px 4px;
-  max-width: calc((100%) - 60px);
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   background-color: transparent;
@@ -105,7 +105,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 960px) {
   .cards__items {
     display: flex;
   }
