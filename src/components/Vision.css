@@ -25,10 +25,16 @@ a {
     justify-content: space-between;
 }
 
+
 .main-col-left {
     width: 40%;
     display: flex;
     flex-direction: column;
+}
+
+.main-col-left > p{
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 .main-col-right {
@@ -38,14 +44,6 @@ a {
 .main-img {
     position: absolute;
     top: 100px;
-}
-
-.main-content h1, .main-content p {
-    margin-bottom: 1.5rem;
-}
-
-.main-content p {
-    font-size: 1.5rem;
 }
 
 

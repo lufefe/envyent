@@ -2,7 +2,10 @@ import React from 'react';
 import { Button } from './Button';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import ScrollToTop from './ScrollToTop';
+
+const ToTop = () => {
+   window.scrollTo({ top: 0, left: 100, behavior: 'smooth'});
+};
 
 function Footer() {
     return (
@@ -60,7 +63,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             {/* TODO -> Configure button */}
-            <Button onClick={<ScrollToTop/>}>
+            <Button onClick={ToTop}>
               To top
             </Button>
           </div>

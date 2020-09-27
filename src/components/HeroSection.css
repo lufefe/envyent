@@ -16,54 +16,40 @@ video {
     object-fit: contain;
   }
   
-  .hero-container > h4 {
+  
+  .hero-container .typing {
+    margin-top: 150px;
+    margin-left: 20px;
     color: #fff;
     font-size: 64px;
-    margin-top: -100px;
-  }
-  
-  .hero-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 16px;
-  }
-  
-  .hero-btns {
-    margin-top: 32px;
-  }
-  
-  .hero-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
+    position: absolute;
+    max-width: 50%;
   }
   
   @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
+    .hero-container .typing {
+      font-size: 40px;
+      align-content: flex-start;
+ 
     }
   }
   
   @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .hero-container > p {
+   
+    .hero-container .typing {
       font-size: 30px;
       align-content: flex-start;
+ 
     }
   
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
+  }
+
+  @media screen and (max-width: 600px) {
+   
+    .hero-container .typing {
+      font-size: 20px;
+      align-content: flex-start;
+ 
     }
-  
-    .btn {
-      width: 100%;
-    }
+
   }
