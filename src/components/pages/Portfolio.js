@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 function Portfolio() {
   return (
     <div className = "portfolio-container">
-
+      { window.scrollTo({ top: 0, left: 100, behavior: 'smooth'})}
       <div className="porfolio-image">
         <img className="portfolio" src={portfolio} alt="portfolio"/>
       </div>
@@ -27,11 +27,11 @@ function Portfolio() {
             </div>
             <div className="sub-description">
               <p className="sub-text">
-                CEO | Ayabonga Jumba <br/>
-                HEADQUARTERS | Johannesburg, South Africa <br/>
-                FOUNDED | 2019 <br/><br/>
+                <span>CEO</span> | Ayabonga Jumba <br/><br/>
+                <span> HEADQUARTERS </span>| Johannesburg, South Africa <br/><br/>
+                <span>FOUNDED </span>| 2019 <br/><br/>
 
-                VISION | Providing secure and easy ways to manage blood donation records and data. <br/><br/>
+                <span>VISION</span>  | Providing secure and easy ways to manage blood donation records and data. <br/><br/>
 
                 Blorema is an Electronic Health Records (EHR) management application focusing on blood donation records.  <br/><br/>
 
@@ -54,11 +54,11 @@ function Portfolio() {
             </div>
             <div className="sub-description">
               <p className="sub-text">
-              CEO | Ayabonga Jumba <br/>
-                HEADQUARTERS | Johannesburg, South Africa <br/>
-                FOUNDED | 2018 <br/><br/>
+              <span>CEO</span>  | Ayabonga Jumba <br/><br/>
+              <span>HEADQUARTERS</span>  | Johannesburg, South Africa <br/><br/>
+              <span>FOUNDED</span>  | 2018 <br/><br/>
 
-                VISION | Providing secure and easy ways to manage patien health records and data. <br/><br/>
+                <span>VISION</span>  | Providing secure and easy ways to manage patient health records and data. <br/><br/>
 
                 Patrema is an Electronic Health Records (EHR) management application focusing on patient health records.  <br/><br/>
               </p>
@@ -80,15 +80,15 @@ function Portfolio() {
             </div>
             <div className="sub-description">
               <p className="sub-text">
-              CEO | Ayabonga Jumba <br/>
-                HEADQUARTERS | Johannesburg, South Africa <br/>
-                FOUNDED | 2021 <br/><br/>
+              <span>CEO</span>  | Ayabonga Jumba <br/><br/>
+              <span>HEADQUARTERS </span> | Johannesburg, South Africa <br/><br/>
+              <span>FOUNDED</span>  | 2021 <br/><br/>
 
-                VISION | Providing secure and easy ways to manage vet records and data. <br/><br/>
+              <span> VISION</span> | Providing secure and easy ways to manage vet records and data. <br/><br/>
 
                 Vetrema is an Electronic Health Records (EHR) management application focusing on Veterinarian records.  <br/><br/>
               </p>
-             
+              <hr/>
             </div>
           </div>
         </div>

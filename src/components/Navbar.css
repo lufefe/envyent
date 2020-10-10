@@ -1,7 +1,7 @@
 .navbar {
     /* background: transparent; */
     background: rgb(0, 0, 0);
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 60px;
     max-width: 1500px;
   }
   
@@ -32,13 +32,8 @@
   }
 
   .navbar-logo > img{
-    width: 100px;
-    height: 100px;
-  }
-  
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+    width: 80px;
+    height: 80px;
   }
   
   .nav-menu {
@@ -51,6 +46,7 @@
     justify-content: end;
     margin-right: 1rem;
     height: inherit;
+    font-size: smaller;
   }
   
   .nav-item {

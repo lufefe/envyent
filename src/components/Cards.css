@@ -99,6 +99,11 @@
   line-height: 24px;
 }
 
+.disclaimer{
+  font-size: 12px;
+  font-style: italic;
+}
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
