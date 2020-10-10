@@ -12,7 +12,7 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Sign up for a newsletter to get notified about any news of the tech industry.
+                    Sign up for a newsletter to get notified about any news on e-Health.
                 </p>
                 <p className="footer-subscription-text">
                     You may unsubscribe anytime.
@@ -26,36 +26,33 @@ function Footer() {
             </section>
             <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+        <div className='footer-link-items'>
+            <h2>Products</h2>
+            <Link to='/'>Blorema &copy;</Link>
+            <Link to='/'>Patrema &copy;</Link>
+            <Link to='/'>Vetrema &copy;</Link>
           </div>
+         
           <div className='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Support</h2>
+            <Link to='/contact'>Contact</Link>
+            <Link to='/'>FAQ</Link>
+            <Link to='/'>Site Map</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+        <div className='footer-link-items'>
+            <h2>Company</h2>
+            <Link to='/'>Careers</Link>
+            <Link to='/'>Investors</Link>
+            <Link to='/'>Legal</Link>
+            <Link to='/'>Privacy Policy</Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>Resources </h2>
+            <Link to='/'>News</Link>
+            <Link to='/'>Blog</Link>
+            <Link to='/'>e-Health</Link>
           </div>
         </div>
       </div>

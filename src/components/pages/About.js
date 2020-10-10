@@ -18,6 +18,7 @@ import dashboard from '../../images/dashboard.svg';
                   <h1 className="heading dark"> About Us  </h1>
                   <p className="home__hero-subtitle dark">
                     Envy Enterprises (Pty) Ltd. is a tech holdings company that is comprised of cutting edge technology subsidairies.
+                    We focus mainly on e-Health, using the latest technologies to solve current issues.
                   </p>
                 </div>
               </div>
@@ -41,7 +42,7 @@ import dashboard from '../../images/dashboard.svg';
                 <div className='top-line'>
                   <h1 className="heading "> Mission  </h1>
                   <p className="home__hero-subtitle">
-                    Envy Enterprises (Pty) Ltd. is a tech holdings company that is comprised of cutting edge technology subsidairies.
+                    Our mission is to build an ecosystem that serves as a secure data channel.
                   </p>
                 </div>
               </div>
@@ -65,7 +66,14 @@ import dashboard from '../../images/dashboard.svg';
                 <div className='top-line'>
                   <h1 className="heading dark"> Values </h1>
                   <p className="home__hero-subtitle dark">
-                    Envy Enterprises (Pty) Ltd. is a tech holdings company that is comprised of cutting edge technology subsidairies.
+                    We pride ourselves in three values: 
+                    <ul className="values-list">
+                      <li>Integrity</li>
+                      <li>Care</li>
+                      <li>Transparency</li>
+                    </ul>
+                    <br/>
+                    Simply put, we ensure the integrity of the the users' data we care about is maintained through transperency.
                   </p>
                 </div>
               </div>

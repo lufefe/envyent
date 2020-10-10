@@ -12,7 +12,63 @@
   }
 
   .sub-logo-image {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    margin: 15px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+  }
+
+  .sub-logo-image:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+  }
+
+  .sub-logo-link{
+    text-decoration: none;
+  }
+
+  .portfolio-wrapper{
+    margin: 20px;
+  }
+
+  .portfolio-inner{
+    display: inline-flex;
+  }
+
+  .sub-description{
+    margin: 20px 20px;
+    font-size: 12px;
+  }
+
+  .sub-text > span{
+    font-weight: bold;
+  }
+
+  @media(max-width:1100px){
+    .porfolio-image .portfolio{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .sub-logo-image {
+      width: 170px;
+      height: 170px;
+    }
+
+    .sub-description{
+      margin: 25px 35px;
+      font-size: 12px;
+    }
+
+    .portfolio-wrapper{
+      margin: 25px;
+    }
+
+    .portfolio-inner{
+      display: block;
+    }
   }

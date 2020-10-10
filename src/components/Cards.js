@@ -54,6 +54,7 @@ function Cards() {
           </ul>
         </div>
       </div>
+      <p className="disclaimer">Disclaimer: The above pictures are A.I generated images and are used as placeholders .</p>
     </div>
   );
 }

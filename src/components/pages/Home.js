@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
-import Philanthropy from '../Philanthropy';
+// import Philanthropy from '../Philanthropy';
 import Vision from '../Vision';
 
 
@@ -12,7 +12,7 @@ function Home() {
     <>
       <HeroSection/>
       <Vision/>
-      <Philanthropy/>
+      {/* <Philanthropy/> */}
       <Cards/>
     </>
   );

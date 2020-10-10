@@ -43,6 +43,7 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-left: 16px;
   }
   
   .heading {
@@ -85,6 +86,10 @@
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
+  }
+
+  .values-list{
+    margin-left: 40px;
   }
   
   @media screen and (max-width: 991px) {
