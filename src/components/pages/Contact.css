@@ -49,6 +49,11 @@
 	padding: 0px;
 	text-align: center;
 }
+.error{
+	color: red;
+	font-size:x-small;
+	font-style: italic;
+}
 .c-inputs{
 	margin: 15px 0px;
 	display: flex;
@@ -58,15 +63,28 @@
 }
 .c-inputs input{
 	width:250px;
-	height: 45px;
+	height: 30px;
 	background-color: transparent;
 	border: none;
 	border-bottom: 1px solid rgba(251,251,251,0.1);
 	outline: none;
-	margin: 10px 0px;
-	padding: 10px;
+	margin-bottom: 20px;
+	padding: 0px;
 	box-sizing: border-box;
 	color: #f4f4f4;
+	display: flex;
+}
+.c-inputs input-error{
+	width:250px;
+	height: 30px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(251,251,251,0.1);
+	outline: none;
+	margin-bottom: 20px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: red;
 	display: flex;
 }
 .c-inputs textarea{
@@ -77,7 +95,7 @@
 	border:1px solid rgba(82,82,82,1);
 	color: #f4f4f4;
 	padding: 10px;
-	font-size: 1.2rem;
+	font-size: 10pt;
 	box-sizing: border-box;
 }
 .c-inputs button{
@@ -99,6 +117,9 @@
 	border-bottom: 1px solid rgba(255,255,255,1.00);
 	transition: all ease 0.5s;
 	background-color: rgba(0,0,0,0.1);
+}
+.c-inputs button:hover{
+	cursor: pointer;
 }
 .c-inputs button:active{
 	transform: scale(1.02);

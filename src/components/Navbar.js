@@ -15,7 +15,7 @@ function Navbar() {
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-    
+
     const onMouseEnter = () => {
         if (window.innerWidth < 960) {
           setDropdown(false);
@@ -88,14 +88,9 @@ function Navbar() {
                             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}> Contact Us </Link>
                         </li>
 
-                        {/* TODO --> Set Navbar button to work */}
-                        <li className="nav-item">
-                            <a href='https://sacoronavirus.co.za' className='nav-links-mobile' onClick={closeMobileMenu} target="_blank" rel="noopener noreferrer">
-                                Covid Response
-                            </a>
-                        </li>
                     </ul>
-                {button && <Button buttonStyle= 'btn--outline'>Covid Response</Button>}
+
+                {button && <Button buttonStyle='btn--outline'>  <a href='https://sacoronavirus.co.za' target='_blank' rel="noopener noreferrer">Covid Response</a></Button>}
                 </div>
 
             </nav>
