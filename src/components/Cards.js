@@ -13,7 +13,7 @@ function Cards() {
             <CardItem
               src='https://images.generated.photos/vg5a0p99H1OW2vcHaU0GSAbYPMycPErzAQEPzNHLjE4/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA2MTE3NTAuanBn.jpg'
               text='Mike Larry'
-              label='CEO'
+              label='Director'
 
             />
             <CardItem
