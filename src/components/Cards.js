@@ -13,7 +13,7 @@ function Cards() {
             <CardItem
               src='https://images.generated.photos/vg5a0p99H1OW2vcHaU0GSAbYPMycPErzAQEPzNHLjE4/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA2MTE3NTAuanBn.jpg'
               text='Mike Larry'
-              label='Founder and CEO'
+              label='Director'
 
             />
             <CardItem
@@ -34,7 +34,7 @@ function Cards() {
             <CardItem
               src='https://images.generated.photos/TVl_gxuCpWDY4ASXh0P_hKlYqW-hoB3RY2xTjnMXuEQ/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA2ODUxMTIuanBn.jpg'
               text='Gloria Finn'
-              label='COO'
+              label='Non-Executive Director'
              
             />
           </ul>
@@ -47,14 +47,14 @@ function Cards() {
             />
            
             <CardItem
-              src='https://images.generated.photos/v3G0DCFTYj4G4SpXxzGCt5b7A-i5FXbUYmQ570h4pG0/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODc1ODQuanBn.jpg'
-              text='Mitch Planko'
-              label='CTO'
+              src='https://images.generated.photos/m8i09pZ0U2iZIlnHjsEPMw-M7I5cF3L9rELGmCUPNGE/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA2ODkwMDYuanBn.jpg'
+              text='Mitch Dhani'
+              label='Non-Executive Director'
             />
           </ul>
         </div>
       </div>
-      <p className="disclaimer">Disclaimer: The above pictures are A.I generated images and are used as placeholders .</p>
+      <p className="disclaimer">Disclaimer: The above pictures are A.I generated images and are used as placeholders, as well as the information provided.</p>
     </div>
   );
 }

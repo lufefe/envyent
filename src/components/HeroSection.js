@@ -13,7 +13,7 @@ function HeroSection() {
             
             <p className="typing">
             <ReactTypingEffect
-                text = {["Reimagine a world so safe and technological advanced...", "a world where your data is yours and yours only", "That right there, is our goal at Envy Enterprises."]}
+                text = {["Reimagine a world where you are in a symbiotic relationship with technology ...", "a world where your data exclusively belongs to you and you have full control of it...","a world formed on trust and security between user and computer." ,"That's the code we live by at Envy Enterprises - The World ReImagined."]}
                 speed="90"
                 eraseDelay="4000"
                 typingDelay="1500"

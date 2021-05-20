@@ -17,8 +17,8 @@ import dashboard from '../../images/dashboard.svg';
                 <div className='top-line'>
                   <h1 className="heading dark"> About Us  </h1>
                   <p className="home__hero-subtitle dark">
-                    Envy Enterprises (Pty) Ltd. is a tech holdings company that is comprised of cutting edge technology subsidairies.
-                    We focus mainly on e-Health, using the latest technologies to solve current issues.
+                    Envy Enterprises (Pty) Ltd. is a tech holdings company that is comprised of cutting edge subsidiaries solving problems across multiple industries. <br/><br/>
+                    We focus mainly on e-Health, using the latest technologies to solve problems in healthcare systems. We also provide solutions and/or products in the following realms: CyberSecurity, A.I, Cloud and Data Mining.
                   </p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ import dashboard from '../../images/dashboard.svg';
                 <div className='top-line'>
                   <h1 className="heading "> Mission  </h1>
                   <p className="home__hero-subtitle">
-                    Our mission is to build an ecosystem that serves as a secure data channel.
+                    Our mission is to build an ecosystem of technologies that serves humanity's needs. Ours is to create a world where we are in control of our data and the use of technology is inherent to our being.
                   </p>
                 </div>
               </div>
@@ -69,11 +69,11 @@ import dashboard from '../../images/dashboard.svg';
                     We pride ourselves in three values: 
                     <ul className="values-list">
                       <li>Integrity</li>
-                      <li>Care</li>
+                      <li>Innovation</li>
                       <li>Transparency</li>
                     </ul>
                     <br/>
-                    Simply put, we ensure the integrity of the the users' data we care about is maintained through transperency.
+                    Simply put, we believe in innovation that ensures integrity of user data and transparency in policies and insights.
                   </p>
                 </div>
               </div>
